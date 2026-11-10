@@ -1,0 +1,5 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/base:jammy",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y g++ make gnu-smalltalk",
+  "customizations": { "vscode": { "extensions": ["ms-vscode.cpptools"] } }
+}
